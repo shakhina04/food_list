@@ -12,7 +12,7 @@ let patterns = {
 
 btns.forEach((btn) => {
   btn.onclick = () => {
-    modal.style.display = "block";
+    modal.style.display = "block"; 
   };
   modalClose.onclick = () => {
     modal.style.display = "none";
